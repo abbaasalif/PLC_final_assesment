@@ -138,7 +138,6 @@ for i in range(len(parsed_array)):
 final_type = 'INTEGER'
 for i in range(len(parsed_array)):
     if parsed_array[i][1] == 'FLOAT':
-        print('here')
         final_type = 'FLOAT'
 final_value = None
 def lex():
@@ -232,7 +231,7 @@ def assign():
         if expected_type == final_type:
             print('the expected type and actual type are matching')
         else:
-            print('TypeError: assigment not possible')
+            print('TypeError: assignment not possible')
             exit()    
         print('END <assingment>')
     elif nextValue == 'float':
@@ -252,6 +251,6 @@ def assign():
         else:
             print('TypeError: assigment not possible')
             exit()    
-        print('END <assingment>')
+        print('END <assignment>')
 
 assign()  
