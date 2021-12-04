@@ -42,7 +42,7 @@ END assignment <br>
 
 ![DivZero output](div0.png)
 
-<br>
+
 *Output:*
 <br>
 (tf2) PS D:\OneDrive\Documents\PLC\final assessment\question3> python .\front.py <br>
