@@ -109,9 +109,52 @@ Exit expr <br>
 TypeError: assignment not possible <br>
 
 
+*Positive case with type casting*
+
+![poscase output](poscase.png)
 
 
-
-
-
-
+*Output:*
+<br>
+(tf2) PS D:\OneDrive\Documents\PLC\final assessment\question3> python .\front.py <br>
+('assign', 'ASSIGN_KEY') <br>
+('float', 'FLOAT_CODE') <br>
+('i', 'IDENTIFIER') <br>
+('=', 'assign_op') <br>
+('2', 'INTEGER') <br>
+('+', 'add_op') <br>
+('3.0', 'FLOAT') <br>
+('/', 'div_op') <br>
+('2', 'INTEGER') <br>
+('*', 'mul_op') <br>
+('true', 'BOOLEAN') <br>
+(';', 'delimiter') <br>
+START <assignment> <br>
+ASSIGN_KEY <br>
+FLOAT_CODE <br> 
+IDENTIFIER <br>
+assign_op <br>
+INTEGER <br>
+Enter expr <br>
+Enter term <br>
+Enter factor <br>
+add_op <br>
+Exit factor <br>
+Exit term <br>
+FLOAT <br>
+Enter term <br>
+Enter factor <br>
+div_op <br>
+Exit factor <br>
+INTEGER <br>
+Enter factor <br>
+mul_op <br>
+Exit factor <br>
+INTEGER <br>
+Enter factor <br>
+delimiter <br>
+Exit factor <br>
+Exit term <br> 
+Exit expr <br>
+the expected type and actual type are matching <br>
+END assignment
