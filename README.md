@@ -6,4 +6,8 @@ here to change your input edit the input.txt where you can enter a assign statem
 
 assign "datatype" "IDENTIFIER" = Expression ;
 
-Scenarios
+Scenarios:
+
+Boolean Coercion
+
+![Boolean output](bool.png)
