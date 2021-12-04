@@ -44,7 +44,6 @@ END assignment <br>
 
 <br>
 *Output:*
-<br>
 (tf2) PS D:\OneDrive\Documents\PLC\final assessment\question3> python .\front.py <br>
 ('assign', 'ASSIGN_KEY') <br>
 ('int', 'INT_CODE')<br>
