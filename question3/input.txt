@@ -1,0 +1,1 @@
+assign float i = 2.0 * 5 + 5;
