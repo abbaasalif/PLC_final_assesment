@@ -69,3 +69,47 @@ INTEGER <br>
 MathERROR: Zero Division <br>
 
 
+*Type mismatch*
+
+![Typemis output](typemis.png)
+
+
+*Output:*
+<br>
+(tf2) PS D:\OneDrive\Documents\PLC\final assessment\question3> python .\front.py <br>
+('assign', 'ASSIGN_KEY') <br>
+('int', 'INT_CODE') <br>
+('i', 'IDENTIFIER') <br>
+('=', 'assign_op') <br>
+('2', 'INTEGER') <br>
+('+', 'add_op') <br>
+('3.0', 'FLOAT') <br>
+(';', 'delimiter') <br>
+START assignment <br>
+ASSIGN_KEY <br>
+INT_CODE <br>
+IDENTIFIER <br>
+assign_op <br>
+INTEGER <br>
+Enter expr <br>
+Enter term <br>
+Enter factor <br>
+add_op <br>
+Exit factor <br>
+Exit term <br>
+FLOAT <br>
+Enter term <br>
+Enter factor <br>
+delimiter <br>
+Exit factor <br>
+Exit term <br>
+Exit expr <br>
+TypeError: assignment not possible <br>
+
+
+
+
+
+
+
+
