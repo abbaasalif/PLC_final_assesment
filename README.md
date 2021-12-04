@@ -54,17 +54,17 @@ END assignment <br>
 ('/', 'div_op')<br>
 ('0', 'INTEGER')<br>
 (';', 'delimiter')<br>
-START <assignment><br>
+START assignment<br>
 ASSIGN_KEY<br>
 INT_CODE<br>
 IDENTIFIER<br>
 assign_op<br>
 INTEGER<br>
-Enter <expr><br>
-Enter <term><br>
-Enter <factor><br>
+Enter expr<br>
+Enter term<br>
+Enter factor<br>
 div_op<br>
-Exit <factor> <br>
+Exit factor <br>
 INTEGER <br>
 MathERROR: Zero Division <br>
 
