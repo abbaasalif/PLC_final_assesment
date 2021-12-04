@@ -1,6 +1,8 @@
 # PLC_final_assesment
 codes for practical for PLC final assessment
 
+#### Disclaimer: the code is open source but please do not copy for university assignments as you might get into trouble for academic malpractice
+
 Question 3
 here to change your input edit the input.txt where you can enter a assign statement in the following format
 
